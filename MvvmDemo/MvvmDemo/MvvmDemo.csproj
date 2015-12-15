@@ -73,6 +73,13 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Model\OperationModel.cs" />
+    <Compile Include="Model\OperationType.cs" />
+    <Compile Include="Model\OperationTypeModel.cs" />
+    <Compile Include="Services\Calculator.cs" />
+    <Compile Include="Services\ICalculator.cs" />
+    <Compile Include="Services\IOperationRepository.cs" />
+    <Compile Include="Services\OperationInMemoryRepository.cs" />
     <Compile Include="View\MainView.xaml.cs">
       <DependentUpon>MainView.xaml</DependentUpon>
     </Compile>
