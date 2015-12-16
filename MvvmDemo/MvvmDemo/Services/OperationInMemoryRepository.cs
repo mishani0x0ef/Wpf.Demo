@@ -33,7 +33,7 @@ namespace MvvmDemo.Services
             }
         }
 
-        // Просто заганємо в наші колекції тестових даних.
+        // Просто заганяємо в наші колекції тестових даних.
         private void Initialize()
         {
             _operationTypes = new ObservableCollection<OperationTypeModel>

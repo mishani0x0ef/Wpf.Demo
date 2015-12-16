@@ -12,7 +12,7 @@ namespace MvvmDemo.Model
             set
             {
                 // Коли ми десь в коді напишемо OperationModel.OperationId = 1, - ми присвоємо значення в приватний філд і викличемо RaisePropertyChanged
-                // RaisePropertyChanged - дозволяє зрозуміти механізму WPF, що обякт змінився і потрібно оновити відображення.
+                // RaisePropertyChanged - дозволяє зрозуміти механізму WPF, що об'єкт змінився і потрібно оновити відображення.
                 _operationId = value;
                 RaisePropertyChanged();
             }

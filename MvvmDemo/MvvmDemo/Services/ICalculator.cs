@@ -1,6 +1,4 @@
-﻿using MvvmDemo.Model;
-
-namespace MvvmDemo.Services
+﻿namespace MvvmDemo.Services
 {
     public interface ICalculator
     {

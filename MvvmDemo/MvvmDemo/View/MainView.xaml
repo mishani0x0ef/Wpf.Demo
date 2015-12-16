@@ -21,7 +21,7 @@
         <TextBlock Grid.Column="0" Grid.Row="0" Text="Тип операції:" Margin="5"></TextBlock>
         <!--Нижче можна побачити приклад привязки даних. 
         Список айтемів, які мають бути в нашій випадайці буде витягуватися з колекцій OperationTypes, яка знаходиться в MainViewModel
-        Вибраний айтем привязується до проперті CurrentOperationType з MainViewModel
+        Вибраний айтем прив'язується до проперті CurrentOperationType з MainViewModel
         DisplayMemberPath="Description" вказує на те, яку пропертю обєкту OperationType слід показувати як текс айтема-->
         <ComboBox Grid.Column="1" Grid.Row="0" ItemsSource="{Binding Path=OperationTypes}" SelectedItem="{Binding Path=CurrentOperationType}" DisplayMemberPath="Description" Margin="5"></ComboBox>
 
